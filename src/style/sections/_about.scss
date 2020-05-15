@@ -49,12 +49,15 @@
 
       &-text {
         text-align: left;
+        font-size: large;
+
 
         @include respond(tab-port) {
           text-align: left;
         }
         @include respond(tab-port-sm) {
           text-align: center;
+
         }
 
         &--important {
